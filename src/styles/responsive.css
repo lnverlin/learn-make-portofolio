@@ -1,0 +1,407 @@
+@media screen and (min-width: 450px) {
+    .jumbotron {
+        padding-right: 20px;
+        height: 40vh;
+    }
+
+    .jumbotron__title {
+        margin-top: 50px;
+    }
+
+    .dot {
+        top: 430px;
+        left: 160px;
+    }
+
+    .dot1 {
+        top: 310px;
+        left: 210px;
+    }
+
+    .dot2 {
+        top: 320px;
+        left: 150px;
+    }
+
+    .inquiry {
+        padding-left: 20px;
+    }
+
+    .inquiry h3 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .nav__button {
+        flex-direction: column;
+        height: 100%;
+        position: fixed;
+        width: 40px;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        padding-left: 20px;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .hamburger {
+        flex: 50%;
+    }
+
+    .btn__contact {
+        margin-bottom: 30px;
+    }
+
+    .hamburger {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    .menu__container {
+        position: absolute;
+        left: -100vh;
+        flex-direction: column;
+        background-color: #FC4237;
+        height: 100vh;
+        width: 90vh;
+        max-width: 700px;
+        color: white;
+        padding: 40px 10px 0 40px;
+        transition: all 1s;
+        -webkit-transition: 1s;
+        transform: translateX(0);
+    }
+
+    .menu__container.open {
+        position: absolute;
+        left: 0;
+        bottom: initial;
+        top: 0;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+    }
+
+    app-bar {
+        flex: 70%;
+    }
+
+    .footer__navbar {
+        flex: 30%;
+    }
+
+    .menu__list ul {
+        row-gap: 40px;
+        margin: 50px 20px 0 70px;
+    }
+
+    .footer__navbar {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 50px 20px 0 70px;
+    }
+
+    reach-us {
+        margin-right: 40px;
+    }
+
+    .container__navbar {
+        padding-top: 18px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    wfh-policy {
+        flex: 20%;
+    }
+
+    social-media {
+        flex: 77%;
+    }
+
+    .menu__container.open {
+        width: 80vh;
+    }
+
+    .expertise {
+        right: 30px;
+    }
+
+    .expertise__title {
+        font-size: 12px;
+        font-weight: bold;
+        padding-bottom: 5px;
+        text-align: right;
+    }
+
+    .expertise__describe {
+        font-size: 13px;
+        color: rgb(163, 163, 163);
+        text-align: right;
+    }
+
+    .jumbotron {
+        margin: 25px 80px 75px;
+    }
+
+    .dot {
+        top: 410px;
+        left: 190px;
+    }
+
+    .dot1 {
+        top: 300px;
+        left: 230px;
+    }
+
+    .dot2 {
+        top: 290px;
+        left: 170px;
+    }
+
+    .contents__cards {
+        margin-left: 50px;
+    }
+
+    .full__content {
+        padding-left: 215px;
+    }
+
+    .inquiry {
+        padding-left: 50px;
+    }
+
+    .inquiry h3 {
+        font-size: 35px;
+    }
+
+    footer {
+        margin-left: 85px;
+    }
+
+    .right__side .menu__list ul {
+        margin: 0;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    .dot {
+        left: 240px;
+    }
+
+    .dot1 {
+        top: 270px;
+        left: 280px;
+    }
+
+    .dot2 {
+        top: 270px;
+        left: 220px;
+    }
+}
+
+@media screen and (min-width: 743px) {
+    .dot {
+        left: 400px;
+    }
+
+    .dot1 {
+        top: 270px;
+        left: 420px;
+    }
+
+    .dot2 {
+        top: 270px;
+        left: 370px;
+    }
+
+    .inquiry {
+        padding-left: 70px;
+    }
+
+    .inquiry h3 {
+        font-size: 45px;
+    }
+
+    footer {
+        margin-left: 120px;
+    }
+
+    .footer__container {
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+    }
+
+    .company__profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+    }
+
+}
+
+
+@media screen and (min-width: 790px) {
+    .contents__cards {
+        margin-top: 39px;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        justify-items: initial;
+        margin: 39px 85px 10px 215px;
+    }
+
+}
+
+@media screen and (min-width: 860px) {
+    .jumbotron {
+        margin-left: 205px;
+    }
+
+    .jumbotron__description {
+        padding-left: 200px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 130px;
+    }
+
+    .footer__container {
+        display: grid;
+        grid-template-columns: max-content max-content auto;
+    }
+
+    .right__side {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: end;
+        padding: 0;
+        margin: 0;
+    }
+
+    .right__side .menu__list ul {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: end;
+    }
+
+    .right__side .menu__list ul a {
+        margin: 0 13px 0 25px;
+    }
+}
+
+@media screen and (min-width: 1060px) {
+    hr {
+        display: none;
+    }
+
+    .contents__cards {
+        margin: 39px 25px 10px 215px;
+        position: relative;
+    }
+
+    .sunset__card {
+
+        left: 500px;
+    }
+
+    .sunset__card .images {
+        width: 300px;
+        height: 190px;
+    }
+
+    .sunset__card .overlay {
+        width: 301px;
+        height: 190px;
+        left: 40%;
+    }
+
+    .dbd__card {
+        left: 105px;
+    }
+
+    .dbd__card .images {
+        width: 290px;
+        height: 180px;
+    }
+
+    .dbd__card .overlay {
+        width: 290px;
+        height: 180px;
+        left: 38%;
+    }
+
+    .piroz__card {
+        left: 105px;
+    }
+
+    .piroz__card .images {
+        width: 430px;
+        height: 275px;
+    }
+
+    .piroz__card .overlay {
+        width: 430px;
+        height: 275px;
+        left: 56.5%;
+    }
+
+    .kaffehuset__card {
+        left: 500px;
+    }
+
+    .kaffehuset__card .images {
+        width: 300px;
+        height: 190px;
+    }
+
+    .kaffehuset__card .overlay {
+        width: 301px;
+        height: 190px;
+        left: 40%;
+    }
+
+    .elchiringuito__card {
+        left: 1px;
+    }
+
+    .elchiringuito__card .images {
+        width: 300px;
+        height: 190px;
+    }
+
+    .elchiringuito__card .overlay {
+        width: 301px;
+        height: 190px;
+        left: 40%;
+    }
+
+    .full__content {
+        left: 285px;
+    }
+
+    .email::after {
+        background-color: rgba(228, 227, 227, 0.863);
+        content: "";
+        display: inline-block;
+        height: 1px;
+        position: relative;
+        vertical-align: middle;
+        width: 55%;
+        left: 0.5em;
+        margin-left: 10%;
+        margin-right: -60%;
+    }
+
+}
